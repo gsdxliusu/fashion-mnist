@@ -157,7 +157,7 @@ train(train_dataset,epochs)
 
 
 import imageio
-
+import glob
 anim_file = 'dcgan.gif'
 
 with imageio.get_writer(anim_file,mode = 'I') as writer:
